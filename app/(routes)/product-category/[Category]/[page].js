@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import GlobalApi from "@/utils/GlobalApi";
-import Products from '@/app/products/page';
+import Products from '@/app/products/[page]';
 import { ShoppingCart } from 'lucide-react';
 
 const CategorizedProduct = ({ params }) => {

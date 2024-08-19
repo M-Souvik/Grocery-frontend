@@ -6,9 +6,9 @@ import { Container } from 'lucide-react';
 import { ListRestart } from 'lucide-react';
 import { Handshake } from 'lucide-react';
 import { Headset } from 'lucide-react';
-import Products from "./products/page";
-import Categories from "@/app/categories/page";
-import Offer from "./Offer/page";
+import Products from "./products/[page]";
+import Categories from "@/app/categories/[page]";
+import Offer from "./Offer/[page]";
 import Testimonials from "@/components/Testimonials";
 import GlobalApi from "@/utils/GlobalApi";
 
